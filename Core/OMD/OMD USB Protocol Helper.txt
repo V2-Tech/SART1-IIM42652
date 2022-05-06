@@ -1,0 +1,132 @@
+/* ----------------------------------------------- */
+/* -------------------- NOTES -------------------- */
+/* ----------------------------------------------- */
+The only register settings that user can modify during sensor operation are for ODR selection, FSR selection, 
+and sensor mode changes (register parameters GYRO_ODR, ACCEL_ODR, GYRO_FS_SEL, ACCEL_FS_SEL, GYRO_MODE, ACCEL_MODE). 
+User must not modify any other register values during sensor operation. 
+The following procedure must be used for register values modification:
+
+• Turn Accel and Gyro Off
+• Modify register values
+• Turn Accel and/or Gyro On
+
+/* ----------------------------------------------- */
+/* -------------------- INFOS -------------------- */
+/* ----------------------------------------------- */
+https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
+https://github.com/cmcqueen/cobs-c
+https://eddmann.com/posts/implementing-a-dynamic-vector-array-in-c/
+https://github.com/skogorev/vc_vector
+https://github.com/gbmhunter/SerialFiller
+
+/* ----------------------------------------------- */
+/* --------------- COMMANDS DETAILS -------------- */
+/* ----------------------------------------------- */
+- 0xFx comandi dedicati alla gestione del IMU
+- 0x1x comandi dedicati all' accelerometro
+- 0x2x comandi dedicati al giroscopio
+- 0x3x comandi dedicati all' interrupt da DMP (APEX) INT2
+- 0xDx comandi dedicati all' invio di dati generici
+
+/* ----------------------------------------------- */
+/* --------------- COMMANDS LIST ----------------- */
+/* ----------------------------------------------- */
+
+/* ------------- Device reset ----------------- */
+*	Command		*	Values (uint8_t)
+*	0xFE		*	Enable state
+*				*	0 = No-action
+*				*	1 = Execute
+*/
+/* ------------- Device CONFIG MODE (IMU off/on) ----------------- */
+*	Command		*	Values (uint8_t)
+*	0xFC		*	Enable state
+*				*	0 = Deactive
+*				*	1 = Active
+*/
+/* ------------- USB Telemetry enabling ----------------- */
+*	Command		*	Values (uint8_t)
+*	0xFA		*	Enable state
+*				*	0 = Deactive
+*				*	1 = Active
+*/
+
+
+
+/* ------------- Ack feedback ----------------- */
+*	Command		* 	Values (uint16_t)
+*	0xAC		*	| 	[Byte 0] 	| 			[Byte 1]		|
+*				*	| 	Command		|	Result:					|
+*				*	|				|	0x01 = ERROR			|
+*				*	|				|	0x10 = OK				|
+*				*	|				|	OR 						|
+*				*	|				|	Requested Value:		|
+*				*	|				|	"IIM42652_AccODRValues"	|
+*				*	|				|	ecc.					|
+*/
+
+
+
+/* ------------- Set accelerometer ODR ----------------- */
+*	Command		* 	Values (uint8_t)
+*	0x10		*	See "IIM42652_AccODRValues" enumerator
+*/
+/* ------------- Get accelerometer ODR ----------------- */
+*	Command		* 	Values (uint8_t)
+*	0x11		*	See "IIM42652_AccODRValues" enumerator
+*/
+/* ------------- Set accelerometer FSR ----------------- */
+*	Command		* 	Values (uint8_t)
+*	0x12		*	See "IIM42652_AccFSRValues" enumerator
+*/
+/* ------------- Get accelerometer FSR ----------------- */
+*	Command		* 	Values (uint8_t)
+*	0x13		*	See "IIM42652_AccFSRValues" enumerator
+*/
+
+
+/* ------------- Set gyroscope ODR ----------------- */
+*	Command		* 	Values (uint8_t)
+*	0x20		*	See "IIM42652_GyroODRValues" enumerator
+*/
+/* ------------- Get gyroscope ODR ----------------- */
+*	Command		* 	Values (uint8_t)
+*	0x21		*	See "IIM42652_GyroODRValues" enumerator
+*/
+/* ------------- Set gyroscope FSR ----------------- */
+*	Command		* 	Values (uint8_t)
+*	0x22		*	See "IIM42652_GyroFSRValues" enumerator
+*/
+/* ------------- Get gyroscope FSR ----------------- */
+*	Command		* 	Values (uint8_t)
+*	0x23		*	See "IIM42652_GyroFSRValues" enumerator
+*/
+
+
+/* ------------- Send IMU data ------------------------- */
+*	Command		* 	Value
+*	0xD0		*	See "IIM42652_FIFO_Packet16_t" struct:
+*				*	Data will be sended without first header byte.
+*/
+/* ------------- Send DO state ------------------------- */
+*	Command		* 	Value (uint8_t)
+*	0xD1		*	Enable state:
+*				*	0 = Deactive
+*				*	1 = Active
+*/
+/* ------------- Send String data ------------------------- */
+*	Command		* 	Value
+*	0xD2		*	Text string
+*/
+
+
+
+/* 0x1x comandi dedicati all'accelerometro */
+0x14 = Set accelerometer BW
+0x16 = Set accelerometer Filter Order
+
+/* 0x2x comandi dedicati al giroscopio */
+0x24 = Set gyroscope BW
+0x26 = Set gyroscope Filter Order
+
+/* 0x3x comandi dedicati all' interrupt 2 */

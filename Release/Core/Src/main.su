@@ -1,0 +1,17 @@
+../Core/Src/main.c:1183:6:DOTimerCallback	8	static
+../Core/Src/main.c:1131:6:StartImuTask	40	static
+../Core/Src/main.c:946:6:StartSignalElabTask	32	static
+../Core/Src/main.c:1022:6:StartUsbTxTask	80	static
+../Core/Src/main.c:1081:6:StartUsbRx	24	static
+../Core/Src/main.c:1175:6:BlinkTimerCallback	0	static
+../Core/Src/main.c:1192:6:SPIReadTimoutTimerCallback	8	static
+../Core/Src/main.c:132:6:initAll	24	static,ignoring_inline_asm
+../Core/Src/main.c:868:6:StartMainTask	40	static
+../Core/Src/main.c:373:6:SystemClock_Config	88	static,ignoring_inline_asm
+../Core/Src/main.c:231:5:main	240	static,ignoring_inline_asm
+../Core/Src/main.c:810:15:getRunTimeCounterValue	0	static
+../Core/Src/main.c:815:6:HAL_SPI_TxRxCpltCallback	24	static,ignoring_inline_asm
+../Core/Src/main.c:828:6:HAL_I2C_MasterTxCpltCallback	8	static
+../Core/Src/main.c:836:6:HAL_GPIO_EXTI_Callback	8	static
+../Core/Src/main.c:1212:6:HAL_TIM_PeriodElapsedCallback	0	static
+../Core/Src/main.c:1229:6:Error_Handler	0	static,ignoring_inline_asm

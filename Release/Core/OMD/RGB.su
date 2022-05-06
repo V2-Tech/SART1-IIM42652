@@ -1,0 +1,4 @@
+../Core/OMD/RGB.c:16:6:RGB_Init	16	static
+../Core/OMD/RGB.c:61:6:RGB_SetActColor	16	static
+../Core/OMD/RGB.c:73:7:RGB_GetActColor	0	static
+../Core/OMD/RGB.c:78:6:RGB_Blink	8	static

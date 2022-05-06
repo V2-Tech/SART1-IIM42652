@@ -1,0 +1,14 @@
+../Core/OMD/common.c:32:6:PrepareJumpToBootloader	64	static,ignoring_inline_asm
+../Core/OMD/common.c:138:6:CheckBootloaderJump	48	static,ignoring_inline_asm
+../Core/OMD/common.c:155:9:BitSetW	0	static
+../Core/OMD/common.c:167:9:BitSetHW	0	static
+../Core/OMD/common.c:179:9:BitSetB	0	static
+../Core/OMD/common.c:202:9:BitResetW	0	static
+../Core/OMD/common.c:214:9:BitResetHW	0	static
+../Core/OMD/common.c:226:9:BitResetB	0	static
+../Core/OMD/common.c:239:9:BitCheckW	0	static
+../Core/OMD/common.c:247:9:BitCheckHW	0	static
+../Core/OMD/common.c:255:9:BitCheckB	0	static
+../Core/OMD/common.c:264:9:_SAVE_AC1_SETTINGS	24	static
+../Core/OMD/common.c:270:9:_LOAD_AC1_SETTINGS	8	static
+../Core/OMD/common.c:299:6:_USB_SEND_OPT	24	static
