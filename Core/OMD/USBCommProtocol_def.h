@@ -31,6 +31,7 @@ typedef enum  {
 	commandIMUdata = 0xD0,
 	commandDOState = 0xD1,
 	commandString = 0xD2,
+	commandPingPong = 0xD3,
 
 	commandSetAccODR = 0x10,
 	commandGetAccODR = 0x11,

@@ -64,7 +64,7 @@ Core/OMD/USBCommProtocol.o: ../Core/OMD/USBCommProtocol.c \
  ../Middlewares/ST/ARM/DSP/Inc/arm_math.h ../Core/OMD/RingBuffer.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h \
  ../Core/OMD/cobstranscoder.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/vc_vector.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/vc_vector.h \
  ../Core/OMD/USBCommProtocol_def.h ../Core/OMD/vc_vector.h \
  ../Core/OMD/RGB.h
 ../Core/OMD/USBCommProtocol.h:
@@ -135,7 +135,7 @@ Core/OMD/USBCommProtocol.o: ../Core/OMD/USBCommProtocol.c \
 ../Core/OMD/RingBuffer.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h:
 ../Core/OMD/cobstranscoder.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/vc_vector.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/vc_vector.h:
 ../Core/OMD/USBCommProtocol_def.h:
 ../Core/OMD/vc_vector.h:
 ../Core/OMD/RGB.h:

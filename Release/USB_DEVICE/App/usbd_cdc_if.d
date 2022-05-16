@@ -42,10 +42,10 @@ USB_DEVICE/App/usbd_cdc_if.o: ../USB_DEVICE/App/usbd_cdc_if.c \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/USBCommProtocol.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/USBCommProtocol.h \
  ../USB_DEVICE/App/usbd_cdc_if.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/common_def.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/IIM42652.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/common_def.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/IIM42652.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
@@ -64,13 +64,13 @@ USB_DEVICE/App/usbd_cdc_if.o: ../USB_DEVICE/App/usbd_cdc_if.c \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  ../Middlewares/ST/ARM/DSP/Inc/arm_math.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/RingBuffer.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/RingBuffer.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/cobstranscoder.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/vc_vector.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/USBCommProtocol_def.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/vc_vector.h \
- C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/RGB.h
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/cobstranscoder.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/vc_vector.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/USBCommProtocol_def.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/vc_vector.h \
+ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/RGB.h
 ../USB_DEVICE/App/usbd_cdc_if.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
@@ -115,10 +115,10 @@ USB_DEVICE/App/usbd_cdc_if.o: ../USB_DEVICE/App/usbd_cdc_if.c \
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/USBCommProtocol.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/USBCommProtocol.h:
 ../USB_DEVICE/App/usbd_cdc_if.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/common_def.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/IIM42652.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/common_def.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/IIM42652.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
@@ -137,10 +137,10 @@ C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
 ../Middlewares/ST/ARM/DSP/Inc/arm_math.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/RingBuffer.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/RingBuffer.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/cobstranscoder.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/vc_vector.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/USBCommProtocol_def.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/vc_vector.h:
-C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/AC1v2/Core/OMD/RGB.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/cobstranscoder.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/vc_vector.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/USBCommProtocol_def.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/vc_vector.h:
+C:/Users/Valerio.Mazzoni/Desktop/Progetti/Accelerometro\ OMD/Firmware/_STM32/SART1/Core/OMD/RGB.h:

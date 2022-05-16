@@ -116,4 +116,5 @@ uint8_t setWomMode(IIM42652_t *imu, uint8_t mode);
 uint8_t getWomMode(IIM42652_t *imu, uint8_t* value);
 uint8_t setSmdMode(IIM42652_t *imu, uint8_t mode);
 uint8_t getSmdMode(IIM42652_t *imu, uint8_t* value);
+uint8_t getPingPong(IIM42652_t *imu, uint8_t* chipID);
 #endif /* OMD_USBCOMMPROTOCOL_H_ */

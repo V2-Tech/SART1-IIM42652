@@ -660,6 +660,7 @@ void __IMU_INT1_ON();
 void __IMU_INT1_OFF();
 void __IMU_INT2_ON();
 void __IMU_INT2_OFF();
+uint8_t IIM42652_GetWhoIAm(IIM42652_t *imu, uint8_t* value);
 uint8_t IIM42652_SoftReset(IIM42652_t *imu);
 
 uint8_t IIM42652_SetRegisterBank(IIM42652_t *imu, IIM42652_RegBankValue RegisterBankNumber);

@@ -52,9 +52,8 @@ https://github.com/gbmhunter/SerialFiller
 */
 
 
-
 /* ------------- Ack feedback ----------------- */
-*	Command		* 	Values (uint16_t)
+*	Command		* 			Values (uint16_t)
 *	0xAC		*	| 	[Byte 0] 	| 			[Byte 1]		|
 *				*	| 	Command		|	Result:					|
 *				*	|				|	0x01 = ERROR			|
@@ -68,20 +67,20 @@ https://github.com/gbmhunter/SerialFiller
 
 
 /* ------------- Set accelerometer ODR ----------------- */
-*	Command		* 	Values (uint8_t)
+*	Command		* 	Values (uint8_t) 
 *	0x10		*	See "IIM42652_AccODRValues" enumerator
 */
 /* ------------- Get accelerometer ODR ----------------- */
-*	Command		* 	Values (uint8_t)
-*	0x11		*	See "IIM42652_AccODRValues" enumerator
+*	Command		* 	Values (uint8_t)	| Return (uint8_t)
+*	0x11		*	None				| See "IIM42652_AccODRValues" enumerator
 */
 /* ------------- Set accelerometer FSR ----------------- */
 *	Command		* 	Values (uint8_t)
 *	0x12		*	See "IIM42652_AccFSRValues" enumerator
 */
 /* ------------- Get accelerometer FSR ----------------- */
-*	Command		* 	Values (uint8_t)
-*	0x13		*	See "IIM42652_AccFSRValues" enumerator
+*	Command		* 	Values (uint8_t)	| Return (uint8_t)
+*	0x13		*	None				| See "IIM42652_AccFSRValues" enumerator
 */
 
 
@@ -90,16 +89,16 @@ https://github.com/gbmhunter/SerialFiller
 *	0x20		*	See "IIM42652_GyroODRValues" enumerator
 */
 /* ------------- Get gyroscope ODR ----------------- */
-*	Command		* 	Values (uint8_t)
-*	0x21		*	See "IIM42652_GyroODRValues" enumerator
+*	Command		* 	Values (uint8_t)	| Return (uint8_t)
+*	0x21		*	None				| See "IIM42652_GyroODRValues" enumerator
 */
 /* ------------- Set gyroscope FSR ----------------- */
 *	Command		* 	Values (uint8_t)
 *	0x22		*	See "IIM42652_GyroFSRValues" enumerator
 */
 /* ------------- Get gyroscope FSR ----------------- */
-*	Command		* 	Values (uint8_t)
-*	0x23		*	See "IIM42652_GyroFSRValues" enumerator
+*	Command		* 	Values (uint8_t)	| Return (uint8_t)
+*	0x23		*	None				| See "IIM42652_GyroFSRValues" enumerator
 */
 
 
@@ -118,7 +117,10 @@ https://github.com/gbmhunter/SerialFiller
 *	Command		* 	Value
 *	0xD2		*	Text string
 */
-
+/* ------------- Get Ping-Pong data ------------------------- */
+*	Command		* 	Value (uint8_t)	| Return (uint8_t)
+*	0xD3		*	None			| IMU chip ID
+*/
 
 
 /* 0x1x comandi dedicati all'accelerometro */

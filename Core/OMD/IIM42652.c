@@ -681,6 +681,10 @@ void __IMU_INT2_OFF()
 {
 	HAL_NVIC_DisableIRQ(EXTI3_IRQn);
 }
+uint8_t IIM42652_GetWhoIAm(IIM42652_t *imu, uint8_t* value)
+{
+	return IIM42652_ReadRegister(imu, REG_WHO_AM_I, IMU_RegBank_0, value);
+}
 uint8_t IIM42652_SoftReset(IIM42652_t *imu)
 {
 	/* Device configuration register */

@@ -326,6 +326,12 @@ void executeCommand(OMD_Protocol_t *ProtocolStruct, vc_vector* command)
 			ackCommand(ProtocolStruct, command, value8);
 		}
 		break;
+	case commandPingPong:
+		/* Get IMU chip ID */
+		if (getPingPong(&IMU, &value8) == HAL_OK)
+		{
+			ackCommand(ProtocolStruct, command, value8);
+		}
 	default:
 
 		break;
@@ -685,4 +691,8 @@ uint8_t setSmdMode(IIM42652_t *imu, uint8_t mode)
 uint8_t getSmdMode(IIM42652_t *imu, uint8_t* value)
 {
 	return IIM42652_GetSMDMode(imu, value);
+}
+uint8_t getPingPong(IIM42652_t *imu, uint8_t* chipID)
+{
+	return IIM42652_GetWhoIAm(imu, chipID);
 }
