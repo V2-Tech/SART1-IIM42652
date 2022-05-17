@@ -1,8 +1,0 @@
-../Core/OMD/flash_manager.c:31:17:GetSector	24	static
-../Core/OMD/flash_manager.c:136:6:float2Bytes	24	static
-../Core/OMD/flash_manager.c:151:7:Bytes2float	32	static
-../Core/OMD/flash_manager.c:167:10:Flash_Write_Data	56	static,ignoring_inline_asm
-../Core/OMD/flash_manager.c:236:6:Flash_Read_Data	24	static
-../Core/OMD/flash_manager.c:247:6:Convert_To_Str	32	static
-../Core/OMD/flash_manager.c:258:6:Flash_Write_NUM	16	static
-../Core/OMD/flash_manager.c:267:7:Flash_Read_NUM	24	static

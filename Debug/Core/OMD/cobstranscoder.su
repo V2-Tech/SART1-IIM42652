@@ -1,4 +1,0 @@
-../Core/OMD/cobstranscoder.c:20:20:omdEncodeBuf	64	static
-../Core/OMD/cobstranscoder.c:118:20:omdDecodeBuf	64	static
-../Core/OMD/cobstranscoder.c:202:6:omdEncode	32	static
-../Core/OMD/cobstranscoder.c:262:14:omdDecode	24	static

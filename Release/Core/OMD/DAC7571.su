@@ -1,7 +1,0 @@
-../Core/OMD/DAC7571.c:43:6:DAC7571_Init	0	static
-../Core/OMD/DAC7571.c:59:9:DAC7571_SetOutVoltage	8	static
-../Core/OMD/DAC7571.c:90:6:DAC7571_SetOutEnabling	0	static
-../Core/OMD/DAC7571.c:99:9:DAC7571_Write	24	static
-../Core/OMD/DAC7571.c:121:9:DAC7571_WriteDMA	16	static
-../Core/OMD/DAC7571.c:145:6:DAC7571_WriteDMA_Complete	8	static
-../Core/OMD/DAC7571.c:154:6:DAC7571_TestOutput	8	static
