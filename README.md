@@ -1,5 +1,5 @@
 # SART1-IIM42652
-Stand-alone circuit for reading and processing TDK IMU sensor data
+Stand-alone circuit for read and process TDK IMU sensor data
 
 ![SART1Symbol](Doc/SART1-Configurator_Icon.png)
 
